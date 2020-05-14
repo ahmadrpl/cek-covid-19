@@ -29,3 +29,4 @@ $ npm run build
 </pre>
 <h2>API</h2>
 https://api.covid19api.com/summary
+you can see documentation at https://documenter.getpostman.com/view/8854915/SzS7PR3t?version=latest
