@@ -28,5 +28,5 @@ $ npm run build
  $ npm run start-dev
 </pre>
 <h2>API</h2>
-https://api.covid19api.com/summary
+https://api.covid19api.com/summary <br>
 you can see documentation at https://documenter.getpostman.com/view/8854915/SzS7PR3t?version=latest
