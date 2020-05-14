@@ -1,0 +1,18 @@
+
+/* Card style*/
+.cTotal{
+  text-transform: capitalize;
+}
+.total{
+  font-weight: bold;
+  font-size: 2em;
+  margin: 10px 0px 10px 0px;
+}
+app-bar{
+  display: block;
+  padding: 16px;
+  width: 100%;
+  background-color: cornflowerblue;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}

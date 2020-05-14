@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cek Covid-19</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+        <app-bar></app-bar>
+    </header>
+    <div class="container">
+      <div class="section">
+        <div class="row">
+          <div class="col s12 m4">
+            <div class="card-panel orange lighten-1">
+              <div class="card-action">
+                <span class="cTotal">total positif</span>
+              </div>
+              <div class="card-content">
+                <p id="positif" class="white-text total"></p>
+              </div>
+              <div class="card-action">
+                <span class="cTotal">Orang</span>
+              </div>
+            </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="card-panel green lighten-1">
+              <div class="card-action">
+                <span class="cTotal">Total sembuh</span>
+              </div>
+              <div class="card-content">
+                <p id="sembuh" class="white-text total"></p>
+                </div>
+                <div class="card-action">
+                  <span class="cTotal">Orang</span>
+                </div>
+            </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="card-panel red lighten-1">
+              <div class="card-action">
+                <span class="cTotal">total meninggal</span>
+              </div>
+              <div class="card-content">
+                <p id="meninggal" class="white-text total"></p>
+              </div>
+              <div class="card-action">
+                <span class="cTotal">Orang</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div id="covidSummary" class="col s12">
+            <table id="example" class="cell-border" style="width:100%">
+              <thead>
+                <tr>
+                  <th>Negara</th>
+                  <th>Kasus Positif</th>
+                  <th>Kasus Sembuh</th>
+                  <th>Kasus Meninggal</th>
+                </tr>
+              </thead>
+              <tbody>
+
+              </tbody>
+              <tfoot>
+                <tr>
+                  <th>Negara</th>
+                  <th>Kasus Positif</th>
+                  <th>Kasus Sembuh</th>
+                  <th>Kasus Meninggal</th>
+                </tr>
+              </tfoot>
+            </table>
+          </div>
+        </div>
+      </div>
+  </div>
+     <script src="./dist/bundle.js"></script>
+  </body>
+</html>
